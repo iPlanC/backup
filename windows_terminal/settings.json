@@ -40,7 +40,7 @@
             "experimental.retroTerminalEffect": false,
             "backgroundImage": "C:\\Users\\PlanC\\Documents\\Github\\GF-Resource\\m4a1_normal.png",
             "backgroundImageOpacity": 0.5,
-            "backgroundImageAlignment": "topRight",
+            "backgroundImageAlignment": "bottomRight",
             "backgroundImageStretchMode": "none",
             "suppressApplicationTitle": true
         },
@@ -111,6 +111,9 @@
         // - "split": "auto" makes this pane open in the direction that provides the most surface area.
         // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
         // To learn more about panes, visit https://aka.ms/terminal-panes
+
+        { "command": "commandPalette", "keys": "ctrl+shift+p" },
+
         { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
         { "command": "nextTab", "keys": "ctrl+right" },
         { "command": "prevTab", "keys": "ctrl+left" },
