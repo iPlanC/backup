@@ -93,7 +93,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-alias qrcode-cli='qrencode -o - -t UTF8'
+alias qrencode-cli='qrencode -o - -t UTF8'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
